@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/header.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,10 +16,18 @@ const Header = () => {
       </div>
       <div className="flex gap-12">
         <ul className="flex my-4 pt-1 gap-12 font-bold text-base text-gray-800">
-          <li className="cursor-pointer hover:text-[#FF5F00]">HOME</li>
-          <li className="cursor-pointer hover:text-[#FF5F00]">ABOUT</li>
-          <li className="cursor-pointer hover:text-[#FF5F00]">PROJECTS</li>
-          <li className="cursor-pointer hover:text-[#FF5F00]">CONTACT</li>
+          <li className="cursor-pointer hover:text-[#FF5F00]">
+            <a href="#home">HOME</a>
+          </li>
+          <li className="cursor-pointer hover:text-[#FF5F00]">
+            <a href="#aboutme">ABOUT</a>
+          </li>
+          <li className="cursor-pointer hover:text-[#FF5F00]">
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li className="cursor-pointer hover:text-[#FF5F00]">
+            <a href="#contact">CONTACT</a>
+          </li>
         </ul>
         <button className="rounded-full px-6 my-1 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
           DOWNLOAD CV

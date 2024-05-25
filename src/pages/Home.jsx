@@ -7,7 +7,7 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <Layout>
-      <div className="grid gap-y-9 py-20 bg-[#FFFAE6]">
+      <div id="home" className="grid gap-y-9 py-20 bg-[#FFFAE6]">
         <h1 className="text-6xl text-center font-bold mt-16">
           HEY, I'M BIBHUTI BHUSAN NAYAK
         </h1>
@@ -21,9 +21,15 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <Aboutme />
-      <Projects />
-      <Contact />
+      <div id="aboutme">
+        <Aboutme />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </Layout>
   );
 };
