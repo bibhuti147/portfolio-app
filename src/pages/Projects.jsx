@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -22,17 +23,28 @@ const Projects = () => {
           <div className="px-16">
             <h1 className="text-2xl font-bold">Portfolio</h1>
             <p className="text-xl text-gray-800 font-serif text-justify pt-10">
-              Dopefolio is a successful Open-Source project that I created which
-              have been featured on some of the biggest tech sites like
-              CSS-Tricks, Hostinger, etc & used by thousands of developers
-              globally.
+              I have created a personal portfolio website using Vite and React,
+              with Tailwind CSS for styling. This project showcases my ability
+              to build modern, responsive web applications efficiently. The
+              combination of Vite's fast build tooling, React's powerful
+              component-based architecture, and Tailwind CSS's utility-first
+              approach has allowed me to create a visually appealing and highly
+              functional portfolio. Through this project, I demonstrate my
+              skills in front-end development and my keen eye for design.
             </p>
             <div className="flex gap-5 pt-10">
               <button className="bg-[#FF5F00] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
-                Code Study
+                <Link
+                  to="https://github.com/bibhuti147/portfolio-app"
+                  target="_blank"
+                >
+                  Code Study
+                </Link>
               </button>
               <button className="bg-[#002379] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-[#00215E] focus:outline-none">
-                Live Site
+                <Link to="#" target="_blank">
+                  Live Site
+                </Link>
               </button>
             </div>
           </div>
@@ -46,17 +58,29 @@ const Projects = () => {
           <div className="px-16">
             <h1 className="text-2xl font-bold">Odishaweather Blog Website</h1>
             <p className="text-xl text-gray-800 font-serif text-justify pt-10">
-              Odishaweather is a successful Blog project that I created which
-              have been featured on some of the biggest tech sites like
-              CSS-Tricks, Hostinger, etc & used by thousands of developers
-              globally.
+              Odishaweather is a blog website i recently created for a client
+              using React and Vite, styled with Tailwind CSS. The project
+              integrates Firebase for authentication and database management,
+              enabling secure and efficient data handling. The platform allows
+              the client and their fellow admins to easily post blogs, while
+              users can view these posts and interact with them by liking and
+              commenting after logging in. This project highlights my ability to
+              build full-featured web applications that are both user-friendly
+              and visually appealing.
             </p>
             <div className="flex gap-5 pt-10">
               <button className="bg-[#FF5F00] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
-                Code Study
+                <Link
+                  to="https://github.com/bibhuti147/odisha-weather-app"
+                  target="_blank"
+                >
+                  Code Study
+                </Link>
               </button>
               <button className="bg-[#002379] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-[#00215E] focus:outline-none">
-                Live Site
+                <Link to="https://odishaweather.com/" target="_blank">
+                  Live Site
+                </Link>
               </button>
             </div>
           </div>

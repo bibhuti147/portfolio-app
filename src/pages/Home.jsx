@@ -17,7 +17,7 @@ const Home = () => {
         </p>
         <div className="flex justify-center gap-8">
           <button className="bg-[#FF5F00] text-3xl font-bold rounded-lg shadow-md px-16 py-3 text-white mb-16">
-            Projects
+            <a href="#projects">Projects</a>
           </button>
         </div>
       </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Aboutme = () => {
   return (
@@ -14,20 +17,38 @@ const Aboutme = () => {
         <div className="px-16">
           <h1 className="text-3xl font-bold pb-10">Get to know me!</h1>
           <p className="text-xl text-gray-800 font-serif text-justify pb-10">
-            I'm a Frontend Focused Web Developer building and managing the
-            Front-end of Websites and Web Applications that leads to the success
-            of the overall product. Check out some of my work in the Projects
-            section. I also like sharing content related to the stuff that I
-            have learned over the years in Web Development so it can help other
-            people of the Dev Community. Feel free to Connect or Follow me on my
-            Linkedin and Instagram where I post useful content related to Web
-            Development and Programming I'm open to Job opportunities where I
-            can contribute, learn and grow. If you have a good opportunity that
-            matches my skills and experience then don't hesitate to contact me.
+            I'm a budding web developer with a solid foundation in HTML, CSS,
+            and JavaScript. I have experience building websites using Vite and
+            React, leveraging the power and flexibility these technologies offer
+            for creating dynamic and responsive web applications. In addition to
+            front-end development, I am proficient in using Firebase for both
+            authentication and database management, ensuring secure and
+            efficient handling of user data. Currently, I am focused on
+            expanding my portfolio with diverse projects that showcase my
+            abilities and creativity. I am always eager to learn new
+            technologies and enhance my skills to deliver high-quality web
+            solutions. I'm open to Job opportunities where I can contribute,
+            learn and grow. If you have a good opportunity that matches my
+            skills and experience then don't hesitate to contact me.
           </p>
-          <button className="bg-[#FF5F00] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
-            Contact me
-          </button>
+          <div className="flex gap-3">
+            <button className="bg-[#FF5F00] px-5 py-1 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
+              <a href="#contact">Contact me</a>
+            </button>
+            <button className="text-[#FF5F00] rounded-md focus:outline-none">
+              <Link
+                to="https://www.linkedin.com/in/bibhuti-bhusan-nayak-200a64218"
+                target="_blank"
+              >
+                <FaLinkedin size={50} />
+              </Link>
+            </button>
+            <button className="text-[#FF5F00] rounded-md focus:outline-none">
+              <Link to="https://github.com/bibhuti147" target="_blank">
+                <FaSquareGithub size={50} />
+              </Link>
+            </button>
+          </div>
         </div>
         <div className="px-6">
           <h1 className="text-3xl font-bold pb-10">My Skills</h1>
@@ -57,7 +78,10 @@ const Aboutme = () => {
               GIT & GitHub
             </li>
             <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
-              FireBase
+              Firebase
+            </li>
+            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+              SQL
             </li>
           </ul>
         </div>
