@@ -5,17 +5,19 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white px-20">
-      <div className="flex justify-between border-b-gray-400 border-b-[0.1px] py-20">
-        <div>
-          <h1 className="text-3xl font-bold mb-5">Bibhuti Bhusan Nayak</h1>
-          <p className="text-sm w-[75%]">
+    <div className="bg-black text-white px-6 md:px-20">
+      <div className="flex justify-between border-b-gray-400 border-b-[0.1px] py-10 md:py-20">
+        <div className="px-3">
+          <h1 className="text-xl md:text-3xl font-bold mb-5">
+            Bibhuti Bhusan Nayak
+          </h1>
+          <p className="text-sm text-justify">
             A Result-Oriented Web Developer building and managing Websites and
             Web Applications that leads to the success of the overall product.
           </p>
         </div>
-        <div>
-          <h1 className="text-3xl font-bold mb-5">SOCIAL</h1>
+        <div className="px-3">
+          <h1 className="text-xl md:text-3xl font-bold mb-5">SOCIAL</h1>
           <ul className="flex gap-3">
             <li>
               <Link

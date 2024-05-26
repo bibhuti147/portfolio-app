@@ -36,14 +36,14 @@ const Contact = () => {
 
   return (
     <div className="py-32 bg-[#F0EBE3]">
-      <h1 class="text-4xl text-center font-bold pb-10">
+      <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">Contact Me</span>
       </h1>
-      <p className="text-center text-gray-800 text-xl font-serif px-14 md:px-56 pb-5">
+      <p className="text-justify md:text-center text-gray-800 text-lg md:text-xl font-serif px-8 md:px-56 pb-10">
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible.
       </p>
-      <div className="py-7 md:py-14 mx-16 md:mx-60 px-8 md:px-16 bg-[#DDDDDD] shadow-xl">
+      <div className="py-7 md:py-14 mx-8 md:mx-60 px-4 md:px-16 bg-[#DDDDDD] shadow-xl">
         <form
           onSubmit={onSubmit}
           class="w-full mx-auto flex flex-col justify-center "

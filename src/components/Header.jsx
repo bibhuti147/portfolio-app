@@ -27,31 +27,28 @@ const Header = () => {
   );
 
   return (
-    <div
-      className="px-5 md:px-8 py-4 flex justify-between fixed top-0 z-50 bg-[#F0EBE3] shadow-lg w-full"
-      style={{ top: 0 }}
-    >
+    <div className="px-5 md:px-8 py-4 flex justify-between fixed top-0 z-50 bg-[#F0EBE3] shadow-lg w-full">
       <div className="flex gap-2">
         <img
           src={logo}
-          className="w-16 h-16 rounded-full transform transition ease-in-out hover:scale-125"
+          className="w-9 md:w-16 h-9 md:h-16 rounded-full transform transition ease-in-out hover:scale-125"
         />
-        <h1 className="text-xl mt-5 md:mt-0 md:pt-[17px] font-bold hover:text-[#FF5F00] cursor-default">
+        <h1 className="text-sm md:text-xl mt-[9px] md:mt-0 md:pt-[17px] font-bold hover:text-[#FF5F00] cursor-default">
           BIBHUTI BHUSAN NAYAK
         </h1>
       </div>
       <div className="flex gap-4 md:gap-12">
         <div className="hidden md:block">{navList}</div>
-        <button className="rounded-full px-6 my-1 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
+        <button className="hidden lg:block rounded-full px-6 my-1 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
           DOWNLOAD CV
         </button>
         <button className="md:hidden" onClick={() => setIsopen(!isopen)}>
-          <VscThreeBars size={40} />
+          <VscThreeBars size={30} />
         </button>
       </div>
       {isopen && (
         <div
-          className="lg:hidden absolute top-20 right-0 px-6 bg-[#F0EBE3] text-right w-full shadow-xl"
+          className="lg:hidden absolute top-16 right-0 px-6 bg-[#F0EBE3] text-right w-full shadow-xl"
           onClick={() => setIsopen(!isopen)}
         >
           {navList}

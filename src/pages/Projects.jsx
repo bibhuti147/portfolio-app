@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="py-32 bg-[#EEEEEE]">
-      <h1 class="text-4xl text-center font-bold pb-10">
+      <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">PROJECTS</span>
       </h1>
-      <p className="text-center text-gray-800 text-xl font-serif px-14 md:px-56">
+      <p className="text-justify md:text-center text-gray-800 text-lg md:text-xl font-serif px-8 md:px-56">
         Here you will find some of the personal and clients projects that I
         created with each project containing its own case study.
       </p>
-      <div className="pt-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 px-20 pt-10">
+      <div className="pt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-7 md:px-20 pt-10">
           <img
             src={project1}
             alt="/"
@@ -24,7 +24,7 @@ const Projects = () => {
             <h1 className="text-2xl font-bold text-center md:text-left">
               Portfolio
             </h1>
-            <p className="text-xl text-gray-800 font-serif text-justify pt-5 md:pt-10">
+            <p className="text-lg md:text-xl text-gray-800 font-serif text-justify pt-5 md:pt-10">
               I have created a personal portfolio website using Vite and React,
               with Tailwind CSS for styling. This project showcases my ability
               to build modern, responsive web applications efficiently. The
@@ -51,7 +51,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-20 pt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-7 md:px-20 pt-24">
           <img
             src={project2}
             alt="/"
@@ -61,7 +61,7 @@ const Projects = () => {
             <h1 className="text-2xl font-bold text-center md:text-left">
               Odishaweather Blog Website
             </h1>
-            <p className="text-xl text-gray-800 font-serif text-justify pt-5 md:pt-10">
+            <p className="text-lg md:text-xl text-gray-800 font-serif text-justify pt-5 md:pt-10">
               Odishaweather is a blog website i recently created for a client
               using React and Vite, styled with Tailwind CSS. The project
               integrates Firebase for authentication and database management,

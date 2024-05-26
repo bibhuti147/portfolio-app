@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="w-[160%] md:w-full">
+    <div className="w-full">
       <Header />
       <div className="min-h-screen">{children}</div>
       <Footer />

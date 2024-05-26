@@ -6,17 +6,19 @@ import { Link } from "react-router-dom";
 const Aboutme = () => {
   return (
     <div className="py-32 bg-[#F6F5F2]">
-      <h1 class="text-4xl text-center font-bold pb-10">
+      <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">ABOUT ME</span>
       </h1>
-      <p className="text-center text-gray-800 text-xl font-serif px-2 md:px-56">
+      <p className="text-justify md:text-center text-gray-800 text-lg md:text-xl font-serif px-8 md:px-56">
         Here you will find more information about me, what I do, and my current
         skills mostly in terms of programming and technology
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 pt-24 md:pt-32">
-        <div className="px-16">
-          <h1 className="text-3xl font-bold pb-10">Get to know me!</h1>
-          <p className="text-xl text-gray-800 font-serif text-justify pb-10">
+        <div className="px-8 md:px-16">
+          <h1 className="text-2xl md:text-3xl font-bold pb-10">
+            Get to know me!
+          </h1>
+          <p className="text-lg md:text-xl text-gray-800 font-serif text-justify px-1 pb-10">
             I'm a budding web developer with a solid foundation in HTML, CSS,
             and JavaScript. I have experience building websites using Vite and
             React, leveraging the power and flexibility these technologies offer
@@ -50,37 +52,37 @@ const Aboutme = () => {
             </button>
           </div>
         </div>
-        <div className="px-16 md:px-6 pt-24">
-          <h1 className="text-3xl font-bold pb-10">My Skills</h1>
-          <ul className="grid grid-cols-4 md:grid-cols-5 gap-3">
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+        <div className="px-8 md:px-6 pt-24">
+          <h1 className="text-2xl md:text-3xl font-bold pb-10">My Skills</h1>
+          <ul className="grid grid-cols-3 md:grid-cols-5 gap-3">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               HTML
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               CSS
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               JavaScript
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               REACT
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               C++
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               Tailwind CSS
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               SASS
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
-              GIT & GitHub
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+              GIT
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               Firebase
             </li>
-            <li className="bg-[#E2DFD0] text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               SQL
             </li>
           </ul>
