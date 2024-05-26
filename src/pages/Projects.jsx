@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="py-32 bg-[#EEEEEE]">
+    <div className="py-20 md:py-32 bg-[#EEEEEE]">
       <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">PROJECTS</span>
       </h1>

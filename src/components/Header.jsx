@@ -6,21 +6,21 @@ const Header = () => {
   const [isopen, setIsopen] = useState(false);
 
   const navList = (
-    <ul className="md:flex my-4 pt-1 gap-12 font-bold text-base text-gray-800">
-      <hr className="bg-gray-400 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
-      <li className="cursor-pointer py-1 md:py-0 hover:text-[#FF5F00]">
+    <ul className="md:flex md:my-4 pt-1 gap-12 font-bold text-base text-gray-800">
+      <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
+      <li className="cursor-pointer py-0 md:py-0 hover:text-[#FF5F00]">
         <a href="#home">HOME</a>
       </li>
-      <hr className="bg-gray-400 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
-      <li className="cursor-pointer py-2 md:py-0 hover:text-[#FF5F00]">
+      <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
+      <li className="cursor-pointer py-1 md:py-0 hover:text-[#FF5F00]">
         <a href="#aboutme">ABOUT</a>
       </li>
-      <hr className="bg-gray-400 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
-      <li className="cursor-pointer py-2 md:py-0 hover:text-[#FF5F00]">
+      <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
+      <li className="cursor-pointer py-1 md:py-0 hover:text-[#FF5F00]">
         <a href="#projects">PROJECTS</a>
       </li>
-      <hr className="bg-gray-400 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
-      <li className="cursor-pointer py-2 md:py-0 hover:text-[#FF5F00]">
+      <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
+      <li className="cursor-pointer mb-4 py-1 md:py-0 hover:text-[#FF5F00]">
         <a href="#contact">CONTACT</a>
       </li>
     </ul>
@@ -48,7 +48,7 @@ const Header = () => {
       </div>
       {isopen && (
         <div
-          className="lg:hidden absolute top-16 right-0 px-6 bg-[#F0EBE3] text-right w-full shadow-xl"
+          className="lg:hidden absolute top-[56px] right-0 px-6 bg-[#F0EBE3] text-right w-full shadow-xl"
           onClick={() => setIsopen(!isopen)}
         >
           {navList}

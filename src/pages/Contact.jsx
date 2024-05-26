@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-32 bg-[#F0EBE3]">
+    <div className="py-20 md:py-32 bg-[#F0EBE3]">
       <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">Contact Me</span>
       </h1>
