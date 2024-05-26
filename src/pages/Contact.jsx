@@ -43,7 +43,7 @@ const Contact = () => {
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible.
       </p>
-      <div className="py-7 md:py-14 mx-8 md:mx-60 px-4 md:px-16 bg-[#DDDDDD] shadow-xl">
+      <div className="py-7 md:py-14 mx-4 md:mx-60 px-2 md:px-16 bg-[#DDDDDD] shadow-xl">
         <form
           onSubmit={onSubmit}
           class="w-full mx-auto flex flex-col justify-center "
