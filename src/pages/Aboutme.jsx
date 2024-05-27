@@ -55,34 +55,34 @@ const Aboutme = () => {
         <div className="px-8 md:px-6 pt-24">
           <h1 className="text-2xl md:text-3xl font-bold pb-10">My Skills</h1>
           <ul className="grid grid-cols-3 md:grid-cols-5 gap-3">
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               HTML
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               CSS
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               JavaScript
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               REACT
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               C++
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               Tailwind CSS
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               SASS
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               GIT
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               Firebase
             </li>
-            <li className="bg-[#E2DFD0] md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               SQL
             </li>
           </ul>

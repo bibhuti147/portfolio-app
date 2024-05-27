@@ -43,7 +43,7 @@ const Contact = () => {
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible.
       </p>
-      <div className="py-7 md:py-14 mx-4 md:mx-60 px-2 md:px-16 bg-[#DDDDDD] shadow-xl">
+      <div className="py-8 md:py-14 mx-2 md:mx-60 px-4 md:px-16 bg-[#DDDDDD] shadow-xl rounded-md">
         <form
           onSubmit={onSubmit}
           class="w-full mx-auto flex flex-col justify-center "
@@ -71,7 +71,7 @@ const Contact = () => {
                   aria-invalid="false"
                 />
               </div>
-              <div class="w-full md:w-1/2 ltr:md:ml-2.5 rtl:md:mr-2.5 ltr:lg:ml-5 rtl:lg:mr-5 mt-2 md:mt-0">
+              <div class="w-full md:w-1/2 ltr:md:ml-2.5 rtl:md:mr-2.5 ltr:lg:ml-5 rtl:lg:mr-5 mt-0">
                 <label
                   htmlFor="email"
                   class="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer"
