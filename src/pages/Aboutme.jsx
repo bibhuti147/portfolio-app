@@ -37,17 +37,17 @@ const Aboutme = () => {
             <button className="bg-[#FF5F00] shadow-xl px-5 py-1 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
               <a href="#contact">Contact me</a>
             </button>
-            <button className="text-[#FF5F00] shadow-xl rounded-md focus:outline-none">
+            <button className="bg-[#FF5F00] shadow-xl rounded-md focus:outline-none">
               <Link
                 to="https://www.linkedin.com/in/bibhuti-bhusan-nayak-200a64218"
                 target="_blank"
               >
-                <FaLinkedin size={50} />
+                <FaLinkedin className="text-white rounded-md" size={50} />
               </Link>
             </button>
-            <button className="text-[#FF5F00] shadow-xl rounded-md focus:outline-none">
+            <button className="bg-[#FF5F00] shadow-xl rounded-md focus:outline-none">
               <Link to="https://github.com/bibhuti147" target="_blank">
-                <FaSquareGithub size={50} />
+                <FaSquareGithub className="text-white rounded-md" size={50} />
               </Link>
             </button>
           </div>

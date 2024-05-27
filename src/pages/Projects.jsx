@@ -18,7 +18,7 @@ const Projects = () => {
           <img
             src={project1}
             alt="/"
-            className="h-[110%] transform transition-transform ease-in-out hover:scale-105"
+            className="h-[110%] md:h-fit transform transition-transform ease-in-out hover:scale-105"
           />
           <div className="md:px-16 mt-10 md:mt-0">
             <h1 className="text-2xl font-bold text-center md:text-left">

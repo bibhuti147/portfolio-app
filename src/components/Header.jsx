@@ -40,7 +40,7 @@ const Header = () => {
       <div className="flex gap-4 md:gap-12">
         <div className="hidden md:block">{navList}</div>
         <div className="-mt-1">
-          <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
+          <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-[#FF5F00] font-bold focus:outline-none">
             DOWNLOAD CV
           </button>
         </div>
