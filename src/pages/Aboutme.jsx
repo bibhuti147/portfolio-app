@@ -9,7 +9,7 @@ const Aboutme = () => {
       <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">ABOUT ME</span>
       </h1>
-      <p className="text-justify md:text-center text-gray-800 text-base md:text-xl font-serif px-8 md:px-56">
+      <p className="text-justify leading-relaxed hyphens-auto md:text-center text-gray-800 text-base md:text-xl font-serif px-8 md:px-56">
         Here you will find more information about me, what I do, and my current
         skills mostly in terms of programming and technology
       </p>
@@ -18,7 +18,7 @@ const Aboutme = () => {
           <h1 className="text-2xl md:text-3xl font-bold pb-10">
             Get to know me!
           </h1>
-          <p className="text-base md:text-xl text-gray-800 font-serif text-justify px-1 pb-10">
+          <p className="text-base md:text-xl text-gray-800 font-serif text-justify leading-relaxed hyphens-auto px-1 pb-10">
             I'm a budding web developer with a solid foundation in HTML, CSS,
             and JavaScript. I have experience building websites using Vite and
             React, leveraging the power and flexibility these technologies offer

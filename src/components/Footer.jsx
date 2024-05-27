@@ -11,7 +11,7 @@ const Footer = () => {
           <h1 className="text-xl md:text-3xl font-bold mb-5 whitespace-nowrap">
             Bibhuti Bhusan Nayak
           </h1>
-          <p className="text-sm text-justify">
+          <p className="text-sm text-justify leading-relaxed hyphens-auto">
             A Result-Oriented Web Developer building and managing Websites and
             Web Applications that leads to the success of the overall product.
           </p>

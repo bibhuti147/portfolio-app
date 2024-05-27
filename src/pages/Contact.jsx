@@ -39,7 +39,7 @@ const Contact = () => {
       <h1 class="text-3xl md:text-4xl text-center font-bold pb-10">
         <span class="border-b-4 border-[#FF5F00]">Contact Me</span>
       </h1>
-      <p className="text-justify md:text-center text-gray-800 text-base md:text-xl font-serif px-8 md:px-56 pb-10">
+      <p className="text-justify leading-relaxed hyphens-auto md:text-center text-gray-800 text-base md:text-xl font-serif px-8 md:px-56 pb-10">
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible.
       </p>
