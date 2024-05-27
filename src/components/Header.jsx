@@ -39,9 +39,11 @@ const Header = () => {
       </div>
       <div className="flex gap-4 md:gap-12">
         <div className="hidden md:block">{navList}</div>
-        <button className="hidden lg:block rounded-full px-6 my-1 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
-          DOWNLOAD CV
-        </button>
+        <div className="-mt-1">
+          <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-gray-500 hover:bg-[#FF5F00] hover:text-white font-bold focus:outline-none">
+            DOWNLOAD CV
+          </button>
+        </div>
         <button className="md:hidden" onClick={() => setIsopen(!isopen)}>
           <VscThreeBars size={30} />
         </button>
