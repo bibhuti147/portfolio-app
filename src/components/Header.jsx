@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/images/header.jpg";
 import { VscThreeBars } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isopen, setIsopen] = useState(false);
@@ -40,9 +41,14 @@ const Header = () => {
       <div className="flex gap-4 md:gap-12">
         <div className="hidden md:block">{navList}</div>
         <div className="-mt-1">
-          <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-[#FF5F00] font-bold focus:outline-none">
-            DOWNLOAD CV
-          </button>
+          <Link
+            to="https://docs.google.com/document/d/1dpH185alkERXOYv-Y2GcXpfJIf8_ELqoE2P3j_YIDR8/edit?usp=sharing"
+            target="_blank"
+          >
+            <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-[#FF5F00] font-bold focus:outline-none">
+              DOWNLOAD CV
+            </button>
+          </Link>
         </div>
         <button className="md:hidden" onClick={() => setIsopen(!isopen)}>
           <VscThreeBars size={30} />
