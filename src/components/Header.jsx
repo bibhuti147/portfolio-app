@@ -42,7 +42,7 @@ const Header = () => {
         <div className="hidden md:block">{navList}</div>
         <div className="-mt-1">
           <Link
-            to="https://docs.google.com/document/d/1dpH185alkERXOYv-Y2GcXpfJIf8_ELqoE2P3j_YIDR8/edit?usp=sharing"
+            to="https://drive.google.com/file/d/1JMYg_JsYTekPrGwp6r0M_8pQblD4BRwG/view?usp=sharing"
             target="_blank"
           >
             <button className="hidden lg:block rounded-full px-6 py-4 mt-2 text-base text-white bg-[#FF5F00] font-bold focus:outline-none">
