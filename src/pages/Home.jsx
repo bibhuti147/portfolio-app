@@ -3,12 +3,17 @@ import Layout from "../components/Layout";
 import Aboutme from "./Aboutme";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import bgd from "../assets/images/logo.jpg";
 
 const Home = () => {
   return (
     <Layout>
-      <div id="home" className="py-32 bg-[#FFFAE6]">
-        <h1 className="text-4xl md:text-6xl text-center font-bold pt-16">
+      <div
+        id="home"
+        className="py-[130px] bg-indigo-500"
+        style={{ backgroundImage: `url(${bgd})` }}
+      >
+        <h1 className="text-4xl md:text-6xl text-center font-bold pt-24">
           HEY, I'M BIBHUTI BHUSAN NAYAK
         </h1>
         <p className="py-12 px-10 font-serif text-gray-700 text-justify leading-relaxed hyphens-auto text-base md:text-xl">

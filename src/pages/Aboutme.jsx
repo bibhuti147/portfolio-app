@@ -35,7 +35,12 @@ const Aboutme = () => {
           </p>
           <div className="flex gap-3">
             <button className="bg-[#FF5F00] shadow-xl px-5 py-1 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
-              <a href="#contact">Contact me</a>
+              <Link
+                to="https://docs.google.com/document/d/1dpH185alkERXOYv-Y2GcXpfJIf8_ELqoE2P3j_YIDR8/edit?usp=sharing"
+                target="_blank"
+              >
+                Download CV
+              </Link>
             </button>
             <button className="bg-[#FF5F00] shadow-xl rounded-md focus:outline-none">
               <Link
@@ -52,7 +57,7 @@ const Aboutme = () => {
             </button>
           </div>
         </div>
-        <div className="px-8 md:px-6 pt-24">
+        <div className="px-8 md:px-6 pt-2">
           <h1 className="text-2xl md:text-3xl font-bold pb-10">My Skills</h1>
           <ul className="grid grid-cols-3 md:grid-cols-5 gap-3">
             <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
