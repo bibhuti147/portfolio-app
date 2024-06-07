@@ -28,7 +28,7 @@ const Header = () => {
   );
 
   return (
-    <div className="px-5 md:px-8 pt-4 pb-4 flex justify-between fixed top-0 z-50 bg-zinc-200 shadow-lg w-full">
+    <div className="px-5 md:px-8 pt-4 md:pb-2 pb-4 flex justify-between fixed top-0 z-50 bg-zinc-200 shadow-lg w-full">
       <div className="flex gap-2">
         <img
           src={logo}
