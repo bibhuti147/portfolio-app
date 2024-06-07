@@ -7,7 +7,7 @@ const Header = () => {
   const [isopen, setIsopen] = useState(false);
 
   const navList = (
-    <ul className="md:flex md:my-2 pt-1 gap-12 font-bold text-base text-gray-800">
+    <ul className="md:flex md:my-4 pt-1 gap-12 font-bold text-base text-gray-800">
       <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
       <li className="cursor-pointer py-0 md:py-0 hover:text-[#FF5F00]">
         <a href="#home">HOME</a>
