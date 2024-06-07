@@ -7,7 +7,7 @@ const Header = () => {
   const [isopen, setIsopen] = useState(false);
 
   const navList = (
-    <ul className="md:flex md:my-4 pt-1 gap-12 font-bold text-base text-gray-800">
+    <ul className="md:flex md:my-2 pt-1 gap-12 font-bold text-base text-gray-800">
       <hr className="bg-gray-200 flex justify-center my-4 -ml-10 w-[150%] lg:hidden" />
       <li className="cursor-pointer py-0 md:py-0 hover:text-[#FF5F00]">
         <a href="#home">HOME</a>
@@ -28,7 +28,7 @@ const Header = () => {
   );
 
   return (
-    <div className="px-5 md:px-8 pt-4 pb-2 flex justify-between fixed top-0 z-50 bg-zinc-200 shadow-lg w-full">
+    <div className="px-5 md:px-8 pt-4 pb-4 flex justify-between fixed top-0 z-50 bg-zinc-200 shadow-lg w-full">
       <div className="flex gap-2">
         <img
           src={logo}
@@ -56,7 +56,7 @@ const Header = () => {
       </div>
       {isopen && (
         <div
-          className="lg:hidden absolute top-[56px] right-0 px-6 bg-[#F0EBE3] text-right w-full shadow-xl"
+          className="lg:hidden absolute top-[56px] right-0 px-6 bg-zinc-200 text-right w-full shadow-xl"
           onClick={() => setIsopen(!isopen)}
         >
           {navList}
