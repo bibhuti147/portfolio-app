@@ -10,7 +10,7 @@ const Home = () => {
     <Layout>
       <div
         id="home"
-        className="py-[130px] bg-indigo-500"
+        className="py-[130px]"
         style={{ backgroundImage: `url(${bgd})` }}
       >
         <h1 className="text-4xl md:text-6xl text-center font-bold pt-24">
