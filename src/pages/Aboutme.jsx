@@ -36,7 +36,7 @@ const Aboutme = () => {
           <div className="flex gap-3">
             <button className="bg-[#FF5F00] shadow-xl px-5 py-1 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
               <Link
-                to="https://drive.google.com/file/d/1JMYg_JsYTekPrGwp6r0M_8pQblD4BRwG/view?usp=sharing"
+                to="https://drive.google.com/file/d/1Qf4c7dDPGgTcKYOImsUpeJsySO4Cuv7g/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
@@ -86,9 +86,6 @@ const Aboutme = () => {
             </li>
             <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               Firebase
-            </li>
-            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
-              SQL
             </li>
           </ul>
         </div>
