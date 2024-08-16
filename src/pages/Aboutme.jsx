@@ -70,6 +70,9 @@ const Aboutme = () => {
               JavaScript
             </li>
             <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
+              NEXT
+            </li>
+            <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
               REACT
             </li>
             <li className="bg-[#E2DFD0] text-sm md:text-lg text-center text-[#FF5F00] font-semibold py-2">
