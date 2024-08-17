@@ -23,17 +23,18 @@ const Projects = () => {
           />
           <div className="md:px-16 mt-10 md:mt-0">
             <h1 className="text-2xl font-bold text-center md:text-left">
-              Portfolio
+              Movie Matrix Website
             </h1>
             <p className="text-base md:text-xl text-gray-800 font-serif text-justify leading-relaxed pt-5 md:pt-10">
-              I have created a personal portfolio website using Vite and React,
-              with Tailwind CSS for styling. This project showcases my ability
-              to build modern, responsive web applications efficiently. The
-              combination of Vite's fast build tooling, React's powerful
-              component-based architecture, and Tailwind CSS's utility-first
-              approach has allowed me to create a visually appealing and highly
-              functional portfolio. Through this project, I demonstrate my
-              skills in front-end development and my keen eye for design.
+              This is a responsive web application using React and Vite that
+              features a curated list of movies and TV shows. The app includes a
+              filter option, allowing users to toggle between movies and TV
+              shows, and a "Suggest Me" button that randomly selects 10 items
+              from the list. Additionally, I integrated a search functionality
+              powered by the OMDB API, enabling users to search for any movie or
+              TV show directly within the app. My focus was on creating a
+              user-friendly interface and ensuring optimal performance for a
+              smooth and enjoyable browsing experience.
             </p>
             <div className="flex gap-5 pt-10">
               <button className="bg-[#FF5F00] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
