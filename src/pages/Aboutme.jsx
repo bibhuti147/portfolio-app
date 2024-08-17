@@ -36,7 +36,7 @@ const Aboutme = () => {
           <div className="flex gap-3">
             <button className="bg-[#FF5F00] shadow-xl px-5 py-1 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
               <Link
-                to="https://drive.google.com/file/d/1Qf4c7dDPGgTcKYOImsUpeJsySO4Cuv7g/view?usp=sharing"
+                to="https://drive.google.com/file/d/1aPoMq_ckxSeLQYG_2CvYCj0AiIvZf_A5/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
