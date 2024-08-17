@@ -21,7 +21,7 @@ const Projects = () => {
             alt="/"
             className="h-[110%] md:h-fit transform transition-transform ease-in-out hover:scale-105"
           />
-          <div className="md:px-16 mt-10 md:mt-0">
+          <div className="md:px-16 mt-20 md:mt-0">
             <h1 className="text-2xl font-bold text-center md:text-left">
               Movie Matrix Website
             </h1>
@@ -39,14 +39,14 @@ const Projects = () => {
             <div className="flex gap-5 pt-10">
               <button className="bg-[#FF5F00] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-orange-600 focus:outline-none">
                 <Link
-                  to="https://github.com/bibhuti147/portfolio-app"
+                  to="https://github.com/bibhuti147/Movie_Matrix"
                   target="_blank"
                 >
                   Code Study
                 </Link>
               </button>
               <button className="bg-[#002379] px-5 py-2 text-xl text-white rounded-md font-semibold hover:bg-[#00215E] focus:outline-none">
-                <Link to="#" target="_blank">
+                <Link to="https://movie-matrix-zeta.vercel.app" target="_blank">
                   Live Site
                 </Link>
               </button>
